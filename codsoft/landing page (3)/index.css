@@ -1,0 +1,320 @@
+body{
+  background:  #0a0101;
+}
+.lorem-ipsum-dolor {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container {
+  position: absolute;
+  top: 0;
+  left: 0.03rem;
+}
+.lorem-ipsum-dolor1 {
+  position: absolute;
+  top: 5.04rem;
+  left: 0;
+  font-size: 1.54rem;
+  color: #bca6a6;
+}
+.frame-child {
+  position: relative;
+  border-radius: 8.5px;
+  width: 10.15rem;
+  height: 3.93rem;
+  z-index: 0;
+}
+.register {
+  position: absolute;
+  margin: 0 !important;
+  top: 1.12rem;
+  left: 1.7rem;
+  display: inline-block;
+  width: 6.79rem;
+  height: 2.64rem;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-container,
+.vector-parent {
+  position: absolute;
+  left: 0;
+  width: 10.15rem;
+  height: 3.93rem;
+}
+.vector-parent {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.53rem;
+}
+.frame-container {
+  top: 10.25rem;
+  font-size: 1.91rem;
+}
+.frame-item {
+  position: relative;
+  border-radius: 59.5px;
+  width: 9.63rem;
+  height: 3.72rem;
+}
+.vector-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9.63rem;
+  height: 4.27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.55rem;
+  box-sizing: border-box;
+}
+.login {
+  position: absolute;
+  top: 1.09rem;
+  left: 2.73rem;
+  display: inline-block;
+  width: 6.13rem;
+}
+.frame-group {
+  position: absolute;
+  top: 9.75rem;
+  left: 12.88rem;
+  width: 9.63rem;
+  height: 4.27rem;
+  font-size: 1.97rem;
+}
+.lorem-ipsum-dolor-sit-amet-co-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50.25rem;
+  height: 11.71rem;
+}
+.frame-wrapper {
+  position: absolute;
+  top: 13rem;
+  left: 3.31rem;
+  width: 51.59rem;
+  height: 10.69rem;
+}
+.frame-inner {
+  position: absolute;
+  height: 20.17%;
+  top: 9.76%;
+  right: 3.48rem;
+  bottom: 70.07%;
+  max-height: 100%;
+  width: 25.84rem;
+  object-fit: cover;
+}
+.group-icon {
+  position: absolute;
+  top: 2.29rem;
+  left: 1.19rem;
+  width: 3.48rem;
+  height: 3.05rem;
+}
+.home,
+.our-team {
+  position: relative;
+  font-weight: 500;
+}
+.home {
+  text-align: center;
+  display: inline-block;
+  width: 9.48rem;
+  height: 1.61rem;
+  flex-shrink: 0;
+}
+.our-team {
+  height: 1.49rem;
+}
+.our-team,
+.services {
+  display: inline-block;
+  width: 9.48rem;
+  flex-shrink: 0;
+}
+.contact-us,
+.services {
+  position: relative;
+  font-weight: 500;
+}
+.home-parent {
+  position: absolute;
+  height: 3.52%;
+  width: 85.79%;
+  top: 1.7%;
+  right: -20.28%;
+  bottom: 94.78%;
+  left: 34.49%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0.36rem;
+  box-sizing: border-box;
+  gap: 1.53rem;
+  font-size: 1.28rem;
+  font-family: "Plus Jakarta Sans";
+}
+.about-us1 {
+  position: absolute;
+  top: 40rem;
+  left: 2.88rem;
+  font-size: 2.58rem;
+  display: inline-block;
+  width: 12.99rem;
+}
+.line-div {
+  position: absolute;
+  top: 43.86rem;
+  left: 2.83rem;
+  border-top: 1.3px solid #fff;
+  box-sizing: border-box;
+  width: 16.6rem;
+  height: 0.08rem;
+}
+.lorem-ipsum-dolor-container1,
+.lorem-ipsum-dolor2 {
+  position: absolute;
+  height: 7.09%;
+  width: 66.62%;
+  top: 3.98%;
+  left: 7.37%;
+  display: inline-block;
+}
+.lorem-ipsum-dolor-container1 {
+  height: 70.39%;
+  width: 56.26%;
+  top: 25.01%;
+  left: 10.83%;
+  font-size: 1.56rem;
+  color: #b9b6b6;
+}
+.group-child {
+  position: absolute;
+  height: 100.9%;
+  width: 99.58%;
+  top: -0.44%;
+  right: 0.56%;
+  bottom: -0.46%;
+  left: -0.15%;
+  border-radius: 26.33px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.person {
+  position: absolute;
+  height: 88.27%;
+  width: 23.07%;
+  top: 11.73%;
+  right: 0;
+  bottom: 0;
+  left: 76.93%;
+}
+.lorem-ipsum-dolor-sit-amet-co-group {
+  position: absolute;
+  height: 25.59%;
+  width: 99%;
+  top: 40.96%;
+  right: 0;
+  bottom: 33.44%;
+  left: 1%;
+}
+.line-icon {
+  position: absolute;
+  width: 100%;
+  top: 51.44rem;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0.13rem;
+}
+.it-is-a {
+  position: absolute;
+  height: 2.49%;
+  width: 91.21%;
+  top: 87.31%;
+  left: 2.35%;
+  font-size: 0.95rem;
+  font-family: Inter;
+  text-align: center;
+  display: inline-block;
+}
+.ellipse {
+  position: absolute;
+  top: calc(50% - 26.8px);
+  left: calc(50% - 187.7px);
+  border-radius: 50%;
+  background-color: rgba(248, 1, 1, 0.29);
+  filter: blur(87.2px);
+  width: 19.96rem;
+  height: 4.43rem;
+}
+.our-vision {
+  position: absolute;
+  height: 48.04%;
+  width: 48.54%;
+  top: 26.12%;
+  left: 18.42%;
+  line-height: 112.5%;
+  display: flex;
+  align-items: center;
+}
+.heading {
+  position: absolute;
+  height: 8.05%;
+  width: 29.22%;
+  top: 77.11%;
+  right: 34.97%;
+  bottom: 14.85%;
+  left: 35.81%;
+  font-size: 2.35rem;
+  font-family: "Plus Jakarta Sans";
+}
+.arc-icon,
+.image-1-icon {
+  position: absolute;
+  max-height: 100%;
+  right: 20%;
+}
+
+.image-1-icon {
+  height: 73.44%;
+  top: 13.12%;
+  right: 4.46rem;
+  bottom: 13.44%;
+  width: 7.88rem;
+  object-fit: cover;
+}
+.arc-parent {
+  position: absolute;
+  height: 15.97%;
+  width: 19.45%;
+  top: 45.78%;
+  right: 2.7%;
+  bottom: 38.25%;
+  left: 77.85%;
+}
+.frame-parent {
+  position: relative;
+  background-color: #100e0e;
+  width: 100%;
+  height: 110.94rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.1rem;
+  color: #fff;
+  font-family: JejuGothic;
+}
+.image-1-icon{
+  position: relative;
+  right: -40px;
+}

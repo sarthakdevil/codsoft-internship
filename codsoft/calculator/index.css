@@ -1,0 +1,40 @@
+#clear{  
+width: 270px;  
+border: 3px solid gray;  
+  border-radius: 3px;  
+  padding: 20px;  
+  background-color: red;  
+}  
+
+.formstyle  
+{  
+width: 300px;  
+height: 530px;  
+margin: auto;  
+border-radius: 5px;  
+padding: 30px;
+background: #231F20;
+padding-bottom: 30px;  
+}  
+
+
+
+input  
+{  
+width: 40px;  
+background-color: white;  
+color: #231F20;    
+  border-radius: 15px;  
+  padding: 26px;  
+  margin: 5px;  
+  font-size: 15px; 
+}  
+
+
+#calc{  
+width: 250px;  
+border: 5px solid black;  
+  border-radius: 3px;  
+  padding: 20px;  
+  margin: auto;  
+}    

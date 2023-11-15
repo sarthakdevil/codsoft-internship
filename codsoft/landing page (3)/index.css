@@ -1,5 +1,44 @@
 body{
-  background:  #0a0101;
+  position: relative;
+  background-color: #100e0e;
+  width: 100%;
+  height: 110.94rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 2.1rem;
+  color: #fff;
+  font-family: JejuGothic;
+  overflow-y: scroll;
+}
+.group-icon {
+  position: absolute;
+  left: 1.19rem;
+  width: 3.48rem;
+  height: 3.05rem;
+}
+
+nav{
+  position: relative;
+  flex-wrap: wrap;
+  top:0.5%;
+  
+}
+nav>ul{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 10px;
+  left: 40vh;
+}
+nav>ul>li{
+  padding-left: 6%;
+  font-size: 3vh;
+  cursor: pointer;
+}
+nav>ul>li:hover{
+  color:red;
+  transition: ease-in-out 0.5s ;
 }
 .lorem-ipsum-dolor {
   margin: 0;
@@ -16,23 +55,26 @@ body{
   font-size: 1.54rem;
   color: #bca6a6;
 }
-.frame-child {
-  position: relative;
-  border-radius: 8.5px;
-  width: 10.15rem;
-  height: 3.93rem;
-  z-index: 0;
-}
+
 .register {
   position: absolute;
   margin: 0 !important;
-  top: 1.12rem;
-  left: 1.7rem;
+  left: 1.2rem;
   display: inline-block;
   width: 6.79rem;
   height: 2.64rem;
   flex-shrink: 0;
   z-index: 1;
+  border-radius: 8.5px;
+  width: 10.15rem;
+  height: 3.93rem;
+  z-index: 0;
+  background:rgb(159, 7, 7);
+  top: 30vh;
+  text-align: center;
+  border:transparent;
+  color: white;
+  font-weight: bold;
 }
 .frame-container,
 .vector-parent {
@@ -53,12 +95,6 @@ body{
   top: 10.25rem;
   font-size: 1.91rem;
 }
-.frame-item {
-  position: relative;
-  border-radius: 59.5px;
-  width: 9.63rem;
-  height: 3.72rem;
-}
 .vector-wrapper {
   position: absolute;
   top: 0;
@@ -78,6 +114,12 @@ body{
   left: 2.73rem;
   display: inline-block;
   width: 6.13rem;
+  border-radius: 59.5px;
+  width: 9.63rem;
+  height: 3.72rem;
+  background: white;
+  top: 30vh;
+  left: 250px;
 }
 .frame-group {
   position: absolute;
@@ -111,57 +153,6 @@ body{
   width: 25.84rem;
   object-fit: cover;
 }
-.group-icon {
-  position: absolute;
-  top: 2.29rem;
-  left: 1.19rem;
-  width: 3.48rem;
-  height: 3.05rem;
-}
-.home,
-.our-team {
-  position: relative;
-  font-weight: 500;
-}
-.home {
-  text-align: center;
-  display: inline-block;
-  width: 9.48rem;
-  height: 1.61rem;
-  flex-shrink: 0;
-}
-.our-team {
-  height: 1.49rem;
-}
-.our-team,
-.services {
-  display: inline-block;
-  width: 9.48rem;
-  flex-shrink: 0;
-}
-.contact-us,
-.services {
-  position: relative;
-  font-weight: 500;
-}
-.home-parent {
-  position: absolute;
-  height: 3.52%;
-  width: 85.79%;
-  top: 1.7%;
-  right: -20.28%;
-  bottom: 94.78%;
-  left: 34.49%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 0.36rem;
-  box-sizing: border-box;
-  gap: 1.53rem;
-  font-size: 1.28rem;
-  font-family: "Plus Jakarta Sans";
-}
 .about-us1 {
   position: absolute;
   top: 40rem;
@@ -192,7 +183,7 @@ body{
   height: 70.39%;
   width: 56.26%;
   top: 25.01%;
-  left: 10.83%;
+  left: 6.83%;
   font-size: 1.56rem;
   color: #b9b6b6;
 }
@@ -262,8 +253,8 @@ body{
   position: absolute;
   height: 48.04%;
   width: 48.54%;
-  top: 26.12%;
-  left: 18.42%;
+  top: 58%;
+  left: 45.42%;
   line-height: 112.5%;
   display: flex;
   align-items: center;
@@ -303,17 +294,7 @@ body{
   bottom: 38.25%;
   left: 77.85%;
 }
-.frame-parent {
-  position: relative;
-  background-color: #100e0e;
-  width: 100%;
-  height: 110.94rem;
-  overflow: hidden;
-  text-align: left;
-  font-size: 2.1rem;
-  color: #fff;
-  font-family: JejuGothic;
-}
+
 .image-1-icon{
   position: relative;
   right: -40px;
